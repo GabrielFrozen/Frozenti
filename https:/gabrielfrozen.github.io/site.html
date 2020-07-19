@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <style>
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            }
+            .hero{
+                height: 100vh;
+                background-image:linear-
+                gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("gorme.jpg");
+                background-image: url(gorme.jpg); 
+                background-position: center;
+                background-size: cover;
+                overflow-x: hidden;
+                position: relative;
+}
+                .nav-bar{
+                    display: flex;
+                    padding: 40px 120px;
+
+                }
+                .nav-logo img{
+                    width: 135px;
+            }
+            .nav-links{
+                flex: 1;
+
+
+            }
+
+                .nav-links ul{
+                    margin-left: 50px;
+                    display: inline;
+
+                }
+                .nav-links ul li {
+                    list-style: none;
+                    display: inline-block;
+                    padding: 8px 25px;
+
+                }
+                .nav-links ul a{
+                    color:fff;
+                    text-decoration: none;
+                   font-size: 13px;
+             }
+             .nav-links ul li::after{
+            content: '';
+            width:0;
+            height: 2px;
+            background: yellow;
+            display:block;
+                 margin: auto;
+                 transition: .5s;
+                 
+            }
+            .nav-links ul li:hover::after{ 
+             width: 100%;
+            }
+            .btn{
+                padding: 10px 20px;
+                border: 0;
+                background:yellow;
+                font-weight: bold;
+                cursor: pointer;
+                float: left;
+
+            }
+            .nav-links .btn{
+                float: right;
+                
+            }
+            .banner-title{
+                margin: 80px 130px;
+                color: black;
+
+            }
+            .banner-title h1{
+                font-size:70px;
+                margin-bottom:30px ;
+
+            }
+            .banner-title h1 span{
+                color: yellow;
+
+            }
+             .vertical-bar{
+                 height: 100%;
+                 background: #000;
+                 top: 0;
+                 left: 0;
+                 position: absolute;
+             }
+             .search-icon{
+                 height: 60%;
+                 width: 80px;
+
+             }
+             .search-icon .fa{
+                 margin: 45px 23px;
+                 display:  block;
+                 color:blue;
+                 font-size: 30px;
+                 cursor: pointer;
+
+             }
+             .social-icon{
+                 height: 35%;
+                 width: 80px;
+                background: yellow;
+                text-align: center;
+                padding-top: 27%;
+                bottom: 0;
+                position: absolute;
+                }
+                .social-icons .fa{
+                    margin: 15px 23px;
+                    display: block;
+                    padding: 8px;
+                    border: 1px solid #000;
+                    border-radius: 50%;
+                    cursor: pointer;
+
+                }
+                .notifications{
+                    display: flex;
+                    width: 400px;
+                    right: 0;
+                    bottom: 0;
+                    position: absolute;
+                    background: yellow;
+                 align-items: center;
+                }
+                .contents{
+                    flex-basis: 50%;
+                    padding: 10px;
+
+                    
+
+                }
+                .notification-img{
+                    flex-basis: 50%;
+
+                }
+            .banner-title{
+                margin: 80px 40px;
+
+            }
+                .banner-title h1{
+                    font-size: 50px;
+                }   
+.fa-bars{
+    position: absolute;
+        right: 20px;
+        top: 10px;
+}
+fa-bars .fa{
+    display: block;
+    color: #fff;
+    margin: 10px 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.nav-links{
+    height: 100vh;
+    width: 200px;
+    background: #000;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+    
+}
+.nav-links ul a{
+    display: block;
+}
+.nav-links .btn{
+    float: none;
+    margin-top: 10px; 
+
+}
+.contents p{
+    text-align: right;
+    margin-top: 10px;
+}
+                  .nav-bar .fa{
+                display: none;
+
+                }
+                
+                
+.vertical-bar{
+display: none;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.galeria{
+    margin: 200px auto;
+    width: 480px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacal ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+   
+ 
+ 
+                
+
+
+             
+
+        
+
+  
+   
+    </style>
+    <head>
+        <title>hamburguer</title>
+        <meta name="vieport" content="width=device=width,inicial-scales=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body background="imagem/background.jpg">
+    </body>
+    <body>
+        
+         
+        </section>
+    </body>
+       
+     
+       
+        
+   
+            <div class="hero">
+                <div class="conteudoTuto">
+                    <div class="parallax"></div>
+
+                <div class="nav-bar">
+                    <div class="nav-logo">
+                        <img src="imagem/logo.jpg">
+                        <div class="nav-links"id="nav-links"> 
+                            <i class="fa fa-close" onclick="showMenu()"></i>
+                            <ul>
+                                <a href="#"><li><InDex class="htm"></InDex></li></a>
+                                <a href="login.html"><li>Pedido Online</li></a>
+                                <a href="MDSSS.html"><li>Equipe</li></a>
+                                <a href="Index.htm"><li>Cardapio</li></a>
+                            </ul>
+                            
+                        </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i> 
+                    </div>
+                    <div class="banner-title">
+                        <h1><span>hamburguer bom é só aqui.</span> HOT FOOD.</h1>
+                        
+                        <a href="Index.htm">Ver</a>
+
+                    </div>
+                <div class="vertical-bar">
+                    <div class="search-icon">
+                        <i class="fa fa-th-list"></i>
+                        <i class="fa fa-search"></i> 
+                        <div class="social-icon">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="notifications">
+                    <div class="contents">
+                        <small>Quer saber como é feito?</small>
+                        <p><a href="">antes</a><a href="">proximo</a></p>
+                        <div class="notification-img">
+                           
+                           
+                           
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+            <script>
+                
+    show.style.right = "0";
+
+                
+                
+                    show.style.right="-200px"
+               
+            </script>
+    </body>
+                </div>
+                </div>
+            </div>
+</html>
